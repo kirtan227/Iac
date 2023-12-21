@@ -1,8 +1,4 @@
 AWSTemplateFormatVersion: 2010-09-09
-Parameters:
-  check:
-    Type: String
-    Default: Asassssddheqrjakoiendueo9A6yhsqaaaaa
 
 Resources:
   MyNewEventsRule:
