@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+  check:
+    Type: String
+    Default: Asassssddheqrjakoiendueo9A6yhsqaaaaa
+
+Resources:
+  MyNewEventsRule:
+    Type: 'AWS::Events::Rule'
+    Properties:
+      Description: Test Events Rule
+      Name: !Ref check
+      EventPattern:
+        source:
+          - aws.ec2
+      State: ENABLED
