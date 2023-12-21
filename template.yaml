@@ -5,7 +5,7 @@ Resources:
     Type: 'AWS::Events::Rule'
     Properties:
       Description: Test Events
-      Name: test232see
+      Name: test232seeerree
       EventPattern:
         source:
           - aws.ec2
