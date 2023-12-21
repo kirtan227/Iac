@@ -4,8 +4,8 @@ Resources:
   MyNewEventsRule:
     Type: 'AWS::Events::Rule'
     Properties:
-      Description: Test Events Rule
-      Name: !Ref check
+      Description: Test Events
+      Name: test232see
       EventPattern:
         source:
           - aws.ec2
