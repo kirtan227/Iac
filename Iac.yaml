@@ -5,7 +5,7 @@ Parameters:
     Default: Asassssddheqrjakoiendueo9A6yhsqaaaaa
 
 Resources:
-  MyNewEventsRule1:
+  MyNewEventsRule2:
     Type: 'AWS::Events::Rule'
     Properties:
       Description: Test Events Rule
